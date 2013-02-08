@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>http://example.stub.url.tld/</key>
+	<string>{&quot;error&quot;:{&quot;code&quot;:2,&quot;message&quot;:&quot;The following key is required: email_address&quot;},&quot;stat&quot;:&quot;fail&quot;}</string>
+</dict>
+</plist>
