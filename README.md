@@ -57,7 +57,9 @@ Drag and drop the NetworkKit directory into your Xcode Project, and then import 
     * @param URL: the URL to send the request to [required]
     * @param parameters: the POST body in NSDictionary form [not required]
     * @param headers: an NSDictionary of HTTP headers to use [not required]
-    * @param useStubbedResponse: whether or not you want to use the stubbed 	* response stored in the NetworkKitStubs.plist file.
+    * @param useStubbedResponse: whether or not you want to use the stubbed 	
+    * response stored in the NetworkKitStubs.plist file
+    */
         
     [[NetworkKit sharedNetworkKit] sendAsynchronousRequestToURL:[NSURL URLWithString:@"some_api"] withParameters:@{@"username": @"john", @"password" : @"password"} andHeaders:@{@"X-ALTERNATE-HEADER" : @"some info", @"other header" : @"other info"} useStubbedResponse:NO];
     
